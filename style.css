@@ -1,3 +1,35 @@
 h1{
     text-align:center;
 }
+input[type=number]{
+    font-family:Brush Script MT;
+}
+input[type=text]{
+}
+input[type=password]{
+    font-family:Monaco;
+}
+input[type=radio]{
+}
+p::selection{
+    background:red;
+    text-color:yellow;
+}
+@media print{
+    .NoPrint{
+        display:None;
+    }
+}
+@media (min-width:900px){
+    body{
+        background:pink;
+    }
+}
+@media (min width:899px){
+    body{
+        background:red;
+    }
+}
+body{
+    margin:50px 50px 50px 50px;
+}
